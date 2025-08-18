@@ -1,0 +1,51 @@
+# Compiled binaries
+*.gb
+*.gbc
+*.o
+*.rel
+*.lst
+*.map
+*.sym
+*.ihx
+*.lk
+*.noi
+
+# GBDK build files
+*.asm
+*.rst
+*.cdb
+
+# ROM files (unless you specifically want to track releases)
+*.rom
+
+# Debug files
+*.sav
+*.rtc
+
+# IDE/Editor files
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+*.tmp
+*.bak
+
+# Build directories (if you use them)
+build/
+obj/
+bin/
+dist/
+
+# Makefiles dependencies
+*.d
+
+# Emulator save states (optional - you might want these)
+*.ss*
+*.state
+
+# Log files
+*.log
