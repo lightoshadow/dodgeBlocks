@@ -6,6 +6,10 @@ A classic endless runner game for the Nintendo Game Boy, built with GBDK (Game B
 
 DodgeBlocks is an arcade-style dodge game where you control a ball that must avoid oncoming blocks. Navigate left and right to pass through gaps in the block formations as they scroll up the screen.
 
+## Gameplay
+
+![Gameplay Demo](images/gameplay.gif)
+
 ## Controls
 
 - **Left/Right D-pad**: Move the ball horizontally
