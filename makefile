@@ -1,12 +1,12 @@
 BUILD_DIR = build
 
-all: $(BUILD_DIR) $(BUILD_DIR)/main.gb 
+all: $(BUILD_DIR) $(BUILD_DIR)/dodgeBlocks.gb 
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
-$(BUILD_DIR)/main.gb: main.o ballSprite.o textTiles.o 
-	../gbdk/bin/lcc -Wa-l -Wl-m -Wl-j -o $(BUILD_DIR)/main.gb main.o ballSprite.o textTiles.o 
+$(BUILD_DIR)/dodgeBlocks.gb: main.o ballSprite.o textTiles.o 
+	../gbdk/bin/lcc -Wa-l -Wl-m -Wl-j -o $(BUILD_DIR)/dodgeblocks.gb main.o ballSprite.o textTiles.o 
 	rm -f *.asm *.lst *.ihx *.sym *.o
 
 main.o: main.c
