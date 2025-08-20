@@ -3,7 +3,7 @@
 A classic endless runner game for the Nintendo Game Boy, built with GBDK (Game Boy Development Kit).
 
 ## Download
-[![Latest Release](https://img.shields.io/github/v/release/yourusername/DodgeBlocks)](../../releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/lightoshadow/dodgeBlocks)](../../releases/latest)
 
 ## Game Description
 
